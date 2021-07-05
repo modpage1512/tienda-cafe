@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--Pantalla de carga-->
+    <div class="preloader">
+        <img src="img/preloader.gif" alt="preloader" class="preloader__item">
+    </div> 
+    <!--Fin de la pantalla de carga-->
+    <!--encabezado-->
+    <header class="header" id="header">
+        <!--banner-->
+        <div class="banner">
+            <h1 class="banner__title bell-fonts">Adicto al Cafe</h1>
+            <div class="banner__icons">
+                <a href="#" class="banner__social-icon">
+                    <i class="fab fa-facebook fa-fw"></i>
+                </a>
+                <a href="#" class="banner__social-icon">
+                    <i class="fab fa-twitter fa-fw"></i>
+                </a>
+                <a href="#" class="banner__social-icon">
+                    <i class="fab fa-google-plus fa-fw"></i>
+                </a>
+                <a href="#" class="banner__social-icon">
+                    <i class="fab fa-instagram fa-fw"></i>
+                </a>
+            </div>
+        </div>
+        <!--Fin del banner-->
+        <!--Inicio del video -->
+        <article class="video-container">
+            <video class="video-item" autoplay muted loop>
+                <source src="video/coffee.mp4" type="video/ogv">
+                <source src="video/coffee.ogv" type="video/mp4">
+                <source src="video/coffee.webm" type="video/webm">
+                Tu navegador no soporta video
+            </video>
+        </article>
+        <!--Fin del video-->
+        <!--Barra de navegacion-->
+        <div class="navBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <!--Fin de la barra de navegacion-->
+        <!--Sidebar-->
+        <nav class="nav">
+            <ul class="nav__links">
+                <!--Logo-->
+                <li>
+                    <a href="#" class="nav__single-link nav__logo">
+                        <img src="img/navLogo.svg" alt="logo" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#header" class="nav__single-link">header</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav__single-link">about</a>
+                </li>
+                <li>
+                    <a href="#drink" class="nav__single-link">drink</a>
+                </li>
+                <li>
+                    <a href="#work" class="nav__single-link">work</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav__single-link">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Video del header-->
+        <div class="video__switch-container">
+            <div class="video__switch">
+                <span>on</span>
+                <span>off</span>
+                <div class="video__switch-btn"></div>
+            </div>
+        </div>
+    </header>
+    <!--Fin del encabezado-->
+    <!-- sobre nosotros-->
+
+    <section class="about section-padding" id="about">
+
+        <div class="grid-container grid-container--medium-2">
+
+            <article class="about-container">
+                
+                <div class="section-title">
+                    <h1 class="section-title__name bell-fonts">Nuestra historia</h1>
+                    <div class="section-title__underline"></div>
+                    <p class="section-title__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ratione, quibusdam quia id placeat excepturi assumenda praesentium ipsa. Odit, dolorum?</p>
+                </div>
+
+                <div class="about-img">
+                    <img  src="img/aboutImg-1.jpeg" class="about__img-item" alt="about-1">
+                </div>
+
+            </article>
+
+            <article class="about-container">
+                
+                <div class="section-title">
+                    <h1 class="section-title__name bell-fonts">Que hacemos</h1>
+                    <div class="section-title__underline"></div>
+                    <p class="section-title__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ratione, quibusdam quia id placeat excepturi assumenda praesentium ipsa. Odit, dolorum?</p>
+                </div>
+
+                <div class="about-img about-img__special">
+                    <img  src="img/aboutImg-2.jpeg" class="about__img-item" alt="about-1">
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Cafe gratis -->
+
+    <section class="drink section-padding" id="drink">
+        <div class="grid-container">
+
+            <form class="drink-form">
+                <p class="drink-form__feedback">Texto</p>
+                <h3 class="drink-form__title bell-fonts">Para obtener cafe gratis</h3>
+                <div class="drink-form__input">
+                    <input type="text" max-length="15" class="input-name" placeholder="Nombre">
+                </div>
+                <div class="drink-form__input">
+                    <input type="text" max-length="15" class="input-lastname" placeholder="Apellido">
+                </div>
+                <div class="drink-form__input">
+                    <input type="email" max-length="15" class="input-email" placeholder="Email">
+                </div>
+                <div class="drink-form__input">
+                    <input type="submit" max-length="15" value="subscribete" class="input-submit">
+                </div>
+            </form>
+
+            <article class="drink-card">
+                <h3 class="drink-card__title bell-fonts">Suertudos</h3>
+                <div class="drink-card__list">
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="work section-padding" id="work">
+
+        <div class="section-title section-title--left">
+            <h1 class="section-title__name bell-fonts">nuestro trabajo</h1>
+            <div class="section-title__underline"></div>
+        </div>
+
+        <div class="work-container">
+
+            <article class="work-item item-1">
+                <img src="img/work-1.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="1">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-2">
+                <img src="img/work-2.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="2">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-3">
+                <img src="img/work-3.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="3">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-4">
+                <img src="img/work-4.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="4">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-5">
+                <img src="img/work-5.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="5">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-6">
+                <img src="img/work-6.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="6">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-7">
+                <img src="img/work-7.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="7">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-8">
+                <img src="img/work-8.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="8">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+            <article class="work-item item-9">
+                <img src="img/work-9.jpeg" alt="" class="work-item__img">
+                <a href="#" class="work-item__icon" data-id="9">
+                    <i class="fas fa-search"></i>
+                </a>
+            </article>
+
+        </div>
+
+        <div class="work-modal">
+            <div class="work-modal__item"></div>
+            <div class="work-modal__close">
+                <i class="fas fa-window-close"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+
+        <div class="section-title section-title--left">
+            <h1 class="section-title__name bell-fonts">contacto</h1>
+            <div class="section-title__underline"></div>
+        </div>
+
+        <div class="contact-container">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.789671188166!2d-67.02093088578657!3d10.595611165403884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a679930594af1%3A0xc2b08019ce25cff2!2sLos%20proceres%2C%20Catia%20La%20Mar%201162%2C%20Vargas!5e0!3m2!1sen!2sve!4v1625491953934!5m2!1sen!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="contact-map"></iframe>
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <div class="contact-item__icon">
+                        <i class="fas fa-map-pin"></i>
+                    </div>
+                    <h2 class="contact-item__title">direccion</h2>
+                    <p class="contact-item__text">Catia La Mar 1162, Vargas</p>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item__icon">
+                        <i class="fas fa-headphones-alt"></i>
+                    </div>
+                    <h2 class="contact-item__title">soporte</h2>
+                    <p class="contact-item__text">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        123 456 789
+                    </p>
+                    <p class="contact-item__text">
+                        <span>
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        email@email.com
+                    </p>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item__icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h2 class="contact-item__title">horario de trabajo</h2>
+                    <p class="contact-item__text">lunes - viernes 8:00am - 8:00pm</p>
+                    <p class="contact-item__text">saturday - sunday 9:00am - 9:00pm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
